@@ -140,10 +140,10 @@ with col5:
 col6, col7 = st.columns(2)
 
 with col6:
-    run_last_5 = st.number_input('Run Scored in prv. 5 overs')
+    runs_last_5 = st.number_input('Run Scored in prv. 5 overs')
 
 with col7:
-    wicket_last_5 = st.number_input('Wicket Taken in prv. 5 overs')
+    wickets_last_5 = st.number_input('Wicket Taken in prv. 5 overs')
 
 list = ['bat_team_Chennai_Super_Kings', 'bat_team_Delhi_Capitals', 'bat_team_Gujarat_Titans',
        'bat_team_Kings_XI_Punjab', 'bat_team_Kolkata_Knight_Riders', 'bat_team_Lucknow_Super_Giants',
@@ -275,8 +275,8 @@ if st.button('predict probability'):
                              'overs': [overs],
                              'runs': [runs],
                              'wickets': [wickets],
-                             'run_last_5': [run_last_5],
-                             'wicket_last_5': [wicket_last_5]})
+                             'runs_last_5': [runs_last_5],
+                             'wickets_last_5': [wickets_last_5]})
 
 
     if batting_team == bowling_team:

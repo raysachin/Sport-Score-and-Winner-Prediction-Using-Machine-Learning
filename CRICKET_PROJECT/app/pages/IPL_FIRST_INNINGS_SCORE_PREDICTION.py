@@ -135,7 +135,7 @@ with col4:
     runs = st.number_input('Runs')
 
 with col5:
-    wickets = streamlit.number_input('Wickets Out')
+    wickets = st.number_input('Wickets Out')
 
 col6, col7 = st.columns(2)
 

@@ -1,5 +1,4 @@
 # streamlit is a library by which we can easily make web application
-import streamlit
 import streamlit as st
 import pickle
 import pandas as pd
@@ -134,7 +133,7 @@ with col4:
     overs = st.number_input('Overs completed')
 
 with col5:
-    wickets = streamlit.number_input('Wickets Out')
+    wickets = st.number_input('Wickets Out')
 
 # for buttons
 if st.button('predict probability'):

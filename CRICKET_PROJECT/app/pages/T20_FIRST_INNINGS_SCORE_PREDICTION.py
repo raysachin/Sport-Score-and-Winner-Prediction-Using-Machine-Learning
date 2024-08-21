@@ -1,9 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import numpy as np
-import xgboost
-from xgboost import XGBRegressor
 import os
 
 #Get the absolute path based on the current file's location

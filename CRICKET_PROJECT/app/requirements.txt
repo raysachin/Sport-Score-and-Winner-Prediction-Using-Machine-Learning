@@ -1,0 +1,9 @@
+﻿joblib==1.2.0
+scikit-learn==1.2.1
+scipy==1.10.0
+seaborn==0.12.2
+streamlit==1.21.0
+numpy==1.24.2
+matplotlib==3.6.2
+matplotlib-inline==0.1.6
+pandas==1.5.1

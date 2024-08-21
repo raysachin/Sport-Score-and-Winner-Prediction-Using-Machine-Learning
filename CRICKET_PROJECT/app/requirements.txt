@@ -1,3 +1,5 @@
 ﻿streamlit
 Pillow
 pandas
+scikit-learn
+
